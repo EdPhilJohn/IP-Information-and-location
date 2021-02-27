@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import CovidApi from './covidapi'
+import IPApi from './ipinfo'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
       <div>
-         <CovidApi/>
+         <IPApi/>
     </div>
   )
 }
